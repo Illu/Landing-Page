@@ -1,2 +1,2 @@
-Simple landing page for a company’s new product.
+Simple landing page to introduce a new product.
  
