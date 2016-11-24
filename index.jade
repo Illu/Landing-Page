@@ -1,3 +1,9 @@
+//output: index.html
+
+link(rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css')
+link(rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
+link(rel="stylesheet" href="css/style.css")
+
 .container
   .row.landing-header
       .col-md-7.logo Company Name
@@ -27,3 +33,6 @@
      .row
        input(type='text' placeholder='Email Address').email
        .confirm-sub Subscribe
+       
+script(src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js")
+script(src='js/index.js')
